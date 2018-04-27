@@ -4,11 +4,14 @@ All related to the Indra Studios application in the work experience of David Mat
 
 http://indrastudios.com
 
-Tutorial first steps Xamarin: https://www.youtube.com/watch?v=mJ7TIXUJmIs
-
 Colors: https://color.adobe.com/es/Brandts-color-theme-10764081/?showPublished=true
 
-Very Important Links:
+Xamarin Introduction.
+
+  - Tutorial first steps Xamarin: https://www.youtube.com/watch?v=mJ7TIXUJmIs
+  - Introduce to Xamarin PDF: https://gotocon.com/dl/goto-aar-2014/slides/JamesMontemagno_XamarinFormsNativeIOSAndroidAndWindowsPhoneAppsFromONECCodebase.pdf
+
+Links that can bring to us some help:
 
   - Xamarin Form Samples: https://developer.xamarin.com/samples/xamarin-forms/all/ 
   - Xamarin Form Samples GitHub: https://github.com/xamarin/xamarin-forms-samples
