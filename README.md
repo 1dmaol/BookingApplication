@@ -4,6 +4,8 @@ All related to the Indra Studios application in the work experience of David Mat
 
 http://indrastudios.com
 
+Tutorial first steps Xamarin: https://www.youtube.com/watch?v=mJ7TIXUJmIs
+
 Very Important Links:
 
   - Xamarin Form Samples: https://developer.xamarin.com/samples/xamarin-forms/all/ 
@@ -14,4 +16,4 @@ Very Important Links:
   
   # OffTopic
   
-   - Creating folders on GitHub: https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser
+   - How to create folders on GitHub: https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser
