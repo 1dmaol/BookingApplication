@@ -14,4 +14,4 @@ Very Important Links:
   
   OffTopic
   
-    - Creating folders on GitHub: https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser
+   - Creating folders on GitHub: https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser
