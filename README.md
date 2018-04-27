@@ -6,6 +6,8 @@ http://indrastudios.com
 
 Tutorial first steps Xamarin: https://www.youtube.com/watch?v=mJ7TIXUJmIs
 
+Colors: https://color.adobe.com/es/Brandts-color-theme-10764081/?showPublished=true
+
 Very Important Links:
 
   - Xamarin Form Samples: https://developer.xamarin.com/samples/xamarin-forms/all/ 
