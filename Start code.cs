@@ -1,6 +1,6 @@
 using System;
 
-namespace BookingApplication {
+namespace IndraStudiosApp {
 	// Maybe the name of the class will not be that one.
 	public static class Program {
 		
