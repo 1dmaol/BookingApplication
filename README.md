@@ -5,6 +5,7 @@ All related to the Indra Studios application in the work experience of David Mat
 http://indrastudios.com
 
 Colors: https://color.adobe.com/es/Brandts-color-theme-10764081/?showPublished=true
+Logo: http://indrastudios.com/wp-content/uploads/2016/08/indra-logo-grey.png
 
 Xamarin Introduction.
 
