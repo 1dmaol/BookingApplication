@@ -6,17 +6,23 @@
              Title="Indra Studios">
 
     <ScrollView>
-        <StackLayout Spacing="1">
+        <StackLayout Spacing="-10">
             <Image Source="indra-logo-grey.png" HorizontalOptions="FillAndExpand" HeightRequest="250"/>
-            <Button Text="Services" HeightRequest="150"/>
-            <Button Text="Hire space" HeightRequest="150"/>
-            <Button Text="Get a quote" HeightRequest="150"/>
-
+            <Image Source="hirestudio.png" HeightRequest="300" HorizontalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="hireStudio"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="getquote.png" Margin="0,-30,0,0" HeightRequest="300" HorizontalOptions="FillAndExpand">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="getQuote"/>
+                </Image.GestureRecognizers>
+            </Image>
             <StackLayout
                 BackgroundColor="{StaticResource FootBackgroundColor}">
                 <Label Text="Address" 
                     HorizontalTextAlignment="Center"
-                   FontSize="Medium"
+                   FontSize="Large"
                    TextColor="{StaticResource FootHeadlineFontColor}"/>
                 <Label
                     HorizontalTextAlignment="Center"
@@ -25,8 +31,6 @@
             </StackLayout>
         </StackLayout>
     </ScrollView>
-
-</ContentPage>
 
     <!-- RELATIVE TEST
         <RelativeLayout>
@@ -59,3 +63,5 @@
                 Type=RelativeToParent,Property=Height,Factor=.2,Constant=0}"/>
         </RelativeLayout>
 -->
+    
+</ContentPage>
