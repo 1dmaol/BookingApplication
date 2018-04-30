@@ -2,18 +2,60 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App2"
-             x:Class="App2.MainPage">
+             x:Class="App2.MainPage"
+             Title="Indra Studios">
 
-    <RelativeLayout>
-        
-        <Image Source="indra-logo-grey.png"
-               VerticalOptions="Start"
-               HorizontalOptions="Center"/>
-        
-        <Label Text="Indra Studios"
-               VerticalOptions="Center"
-               HorizontalOptions="Center"/>
-        
-    </RelativeLayout>
+    <ScrollView>
+        <StackLayout Spacing="1">
+            <Image Source="indra-logo-grey.png" HorizontalOptions="FillAndExpand" HeightRequest="250"/>
+            <Button Text="Services" HeightRequest="150"/>
+            <Button Text="Hire space" HeightRequest="150"/>
+            <Button Text="Get a quote" HeightRequest="150"/>
+
+            <StackLayout
+                BackgroundColor="{StaticResource FootBackgroundColor}">
+                <Label Text="Address" 
+                    HorizontalTextAlignment="Center"
+                   FontSize="Medium"
+                   TextColor="{StaticResource FootHeadlineFontColor}"/>
+                <Label
+                    HorizontalTextAlignment="Center"
+                    Text="Studio 120, Hackney Downs Studios&#x0a;17 Amhurst Terrace, &#x0a;London, E8 2BT&#x0a;United Kingdom &#x0a; &#x0a; Enquiries: info@indrastudios.com"
+                    TextColor="{StaticResource FootFontColor}"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>
+
+    <!-- RELATIVE TEST
+        <RelativeLayout>
+            <Image Source="indra-logo-grey.png"
+            RelativeLayout.WidthConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Height,Factor=.3,Constant=0}"/>
+
+            <Button Text="Services"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                Property=Height,Factor=.3,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Height,Factor=.2,Constant=0}"/>
+            <Button Text="Hire Place"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                Property=Height,Factor=.5,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Height,Factor=.2,Constant=0}"/>
+            <Button Text="Get a quote"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+                Property=Height,Factor=.7,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression
+                Type=RelativeToParent,Property=Height,Factor=.2,Constant=0}"/>
+        </RelativeLayout>
+-->
