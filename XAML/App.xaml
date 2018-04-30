@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.App">
+	<Application.Resources>
+
+        <ResourceDictionary>
+            <Color x:Key="MainColor">#252839</Color>
+            <Color x:Key="FontColor">#677077</Color>
+            <Color x:Key="AccentColor1">#F2B632</Color>
+            <Color x:Key="AccentColor2">#B5B5B7</Color>
+            <Color x:Key="BackgroundColor">#F0F2F0</Color>
+            <Color x:Key="FootHeadlineFontColor">#BEBA89</Color>
+            <Color x:Key="FootBackgroundColor">#060C17</Color>
+            <Color x:Key="FootFontColor">#CECFD1</Color>
+        </ResourceDictionary>
+        <!-- Application resource dictionary -->
+
+	</Application.Resources>
+</Application>
