@@ -1,3 +1,13 @@
+# Left tasks
+
+- Adapt to iOS (Images, etc.)
+- Change screens Master Detail options
+- Complete Studio Hire Form
+- Payaments through PayPal or send Email.
+- Make quote form
+
+- Improve form style
+
 # Indra Studios App
 
 All related to the Indra Studios application in the work experience of David Mateu and Marc Oller
