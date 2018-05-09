@@ -1,7 +1,8 @@
 # Left tasks
 
 - Adapt to iOS (Images, etc.)
-- Change screens Master Detail options
+- Change screens Master Detail options (DONE)
+- Create the corresponents screens (Services, about us...).
 - Complete Studio Hire Form
 - Payaments through PayPal or send Email.
 - Make quote form
